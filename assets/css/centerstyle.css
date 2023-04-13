@@ -1,4 +1,8 @@
 /*Hrafns Section*/
+*{
+    margin: 0;
+}
+
 dd {
     margin-inline-start: 0px;
 }
@@ -7,7 +11,6 @@ dd {
     font-size: 2em;
     background-color: yellow;
     width: 100%;
-    font-size: 2em;
     animation-name: animation;
 	animation-duration: 20s;
 	animation-timing-function: linear;
@@ -17,16 +20,22 @@ dd {
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 0;
 }
 
 .left, .right {
+    padding: 5px;
     margin: 2rem;
-    border: 1px solid red;
     height: fit-content;
-    width: 30vw;
+    width: 40vw;
     text-align: center;
     display: grid;
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out;
 }
 /*Left Grid*/
 .left {
@@ -36,19 +45,16 @@ dd {
 .right {
     grid-column: 3;
 }
-picture {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-content: space-evenly;
-    width: 90px;
-    height: 90px;
-
-    background-color: aqua;
+picture > a > img {
+    border-radius: 5%;
+    max-width: 30vw;
+    max-height: 20vh;
 }
 /*Companies We Worked for*/
 .bottom {
     width: 100vw;
     text-align: center;
+    margin-right: 10px;
 }
 .companies {
     justify-content: space-evenly;
@@ -60,3 +66,6 @@ picture {
     8.3%,25% { left: 25%; opacity: 1; }
     30.33%, 100% { left: 100%; opacity: 0; }
 }
+@keyframes hover {
+    50% {font-size: 40px;}
+  }
