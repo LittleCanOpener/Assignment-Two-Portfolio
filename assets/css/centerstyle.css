@@ -45,9 +45,9 @@ picture > a > img {
     max-height: 20vh;
 }
 picture > a > img:hover {
-    -ms-transform: scale(1.2, 1.2);
-    -webkit-transform: scale(1.2, 1.2);
-    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
 }
 a:visited, a:link {
     color: black;
