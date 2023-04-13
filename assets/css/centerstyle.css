@@ -6,15 +6,9 @@
 dd {
     margin-inline-start: 0px;
 }
-.animation{
+.text {
     text-align: center;
     font-size: 2em;
-    background-color: yellow;
-    width: 100%;
-    animation-name: animation;
-	animation-duration: 20s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
 }
 .center {
     justify-items: center;
@@ -35,7 +29,6 @@ dd {
     border-radius: 5px;
     border: 0;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    transition: background-color 0.3s ease-in-out;
 }
 /*Left Grid*/
 .left {
@@ -46,9 +39,20 @@ dd {
     grid-column: 3;
 }
 picture > a > img {
+    margin: 2em;
+    transition: transform .5s;
     border-radius: 5%;
     max-width: 30vw;
     max-height: 20vh;
+}
+picture > a > img:hover {
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 0 5px rgba(155, 155, 155, 0.5);
+}
+a:visited, a:link {
+    color: black;
 }
 /*Companies We Worked for*/
 .bottom {
@@ -56,16 +60,11 @@ picture > a > img {
     text-align: center;
     margin-right: 10px;
 }
-.companies {
+.companies > img {
+    max-width: 80vw;
+    margin-left: 1em;
+    margin-right: 1em;
     justify-content: space-evenly;
 }
 
 /*KeyFrames for .Center*/
-@keyframes animation {
-    0%, 8.3% { left: -100%; opacity: 0; }
-    8.3%,25% { left: 25%; opacity: 1; }
-    30.33%, 100% { left: 100%; opacity: 0; }
-}
-@keyframes hover {
-    50% {font-size: 40px;}
-  }
