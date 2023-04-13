@@ -39,9 +39,8 @@ dd {
     grid-column: 3;
 }
 picture > a > img {
-    margin: 2em;
+    margin: 1em;
     transition: transform .5s;
-    border-radius: 5%;
     max-width: 30vw;
     max-height: 20vh;
 }
