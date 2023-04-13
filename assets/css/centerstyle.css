@@ -1,0 +1,62 @@
+/*Hrafns Section*/
+dd {
+    margin-inline-start: 0px;
+}
+.animation{
+    text-align: center;
+    font-size: 2em;
+    background-color: yellow;
+    width: 100%;
+    font-size: 2em;
+    animation-name: animation;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+.center {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+}
+
+.left, .right {
+    margin: 2rem;
+    border: 1px solid red;
+    height: fit-content;
+    width: 30vw;
+    text-align: center;
+    display: grid;
+}
+/*Left Grid*/
+.left {
+    grid-column: 2;
+}
+/*Right Grid*/
+.right {
+    grid-column: 3;
+}
+picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: space-evenly;
+    width: 90px;
+    height: 90px;
+
+    background-color: aqua;
+}
+/*Companies We Worked for*/
+.bottom {
+    width: 100vw;
+    text-align: center;
+}
+.companies {
+    justify-content: space-evenly;
+}
+
+/*KeyFrames for .Center*/
+@keyframes animation {
+    0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 25%; opacity: 1; }
+    30.33%, 100% { left: 100%; opacity: 0; }
+}
