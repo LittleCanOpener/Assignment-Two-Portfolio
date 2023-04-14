@@ -28,12 +28,9 @@
 
 .education-container {
     grid-column: 1;
+    display: grid;
     width: 45vw;
     border: 1px solid;
-}
-table {
-    justify-content: center;
-    display: grid;
 }
 
 picture > a > img {
