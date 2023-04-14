@@ -32,16 +32,16 @@
     width: 45vw;
 }
 
-picture > a > img {
+
+.project-container > a > img {
     margin: 1em;
     transition: transform .5s;
     max-width: 30vw;
     max-height: 20vh;
 }
 
-picture > a > img:hover {
-    -ms-transform: scale(1.1, 1.1);
-    -webkit-transform: scale(1.1, 1.1);
+ 
+.project-container a > img:hover {
     transform: scale(1.1, 1.1);
 }
 
