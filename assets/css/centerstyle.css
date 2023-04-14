@@ -2,67 +2,48 @@
 *{
     margin: 0;
 }
-
-dd {
-    margin-inline-start: 0px;
-}
-.text {
-    text-align: center;
-    font-size: 2em;
-}
-.center {
-    justify-items: center;
+.main-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 0;
-}
-
-.left, .right {
-    padding: 5px;
-    margin: 2rem;
-    height: fit-content;
-    width: 40vw;
+    grid-template-columns: 2;
+    gap: 10px;
     text-align: center;
-    display: grid;
-    background-color: rgba(0, 0, 0, 0.945);
     color: white;
-    border-radius: 5px;
     border: 0;
+    background-color: rgba(0, 0, 0, 0.945);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-/*Left Grid*/
-.left {
+
+.inside-container {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.project-container {
     grid-column: 2;
+    height: fit-content;
+    width: 40vw;
+    grid-template-rows: auto;
+    border: 1px solid;
 }
-/*Right Grid*/
-.right {
-    grid-column: 3;
+
+.education-container {
+    grid-column: 1;
+    border: 1px solid;
 }
+
 picture > a > img {
     margin: 1em;
     transition: transform .5s;
     max-width: 30vw;
     max-height: 20vh;
 }
+
 picture > a > img:hover {
     -ms-transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
 }
+
 a:visited, a:link {
     color: black;
 }
-/*Companies We Worked for*/
-.bottom {
-    width: 100vw;
-    text-align: center;
-    margin-right: 10px;
-}
-.companies > img {
-    max-width: 80vw;
-    margin-left: 1em;
-    margin-right: 1em;
-    justify-content: space-evenly;
-}
-
-/*KeyFrames for .Center*/
