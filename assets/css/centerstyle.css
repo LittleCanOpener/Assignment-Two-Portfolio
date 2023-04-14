@@ -1,4 +1,4 @@
-/*Hrafns Section*/
+/*Hrafns Section Fully responsive without Media*/
 *{
     margin: 0;
 }
@@ -26,7 +26,7 @@
 }
 /*Disclaimer! Header2 is being targeted here aswell*/ 
 .education-container, h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     grid-column: 1;
     display: grid;
     width: 45vw;
