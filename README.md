@@ -46,12 +46,7 @@
     </li>
 </ul>
 <h1>Wireframes</h1>
-<h3>Desktop</h3>
-<img src="./assets/images/wireframe/portfolio.png" height="700px">
-<h3>Tablet</h3>
-<img src="./assets/images/wireframe/portfolio tablet.png" height="700px">
-<h3>Moblie</h3>
-<img src="./assets/images/wireframe/portfolio mobile.png" height="700px" align-items="center">
+<img src="./assets/images/wireframe/wireframe.png">
 <h1>Technologies</h1>
 <h3>Discord:</h3>
 <p>
