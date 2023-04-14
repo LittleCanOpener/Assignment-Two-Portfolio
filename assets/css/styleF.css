@@ -12,7 +12,7 @@ body {
     margin-bottom: 0;
   }
   
-  img {
+  .pictures img {
     max-width: 100%;
     display: block;
   }
@@ -139,12 +139,12 @@ margin-top: 10px;
     align-items: center;
     padding: 40px 10px 40px  10px;
     color: aliceblue;
-justify-content: center;
+    justify-content: center;
 
 }
 .data .col{
     border-right: 1px solid lightgray;
-    padding: 40px 40px 40px  10px;
+    padding: 40px 5% 40px 5%;
 
 }
 

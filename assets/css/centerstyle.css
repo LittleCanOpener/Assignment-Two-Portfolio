@@ -25,7 +25,8 @@
     grid-template-rows: auto;
 }
 /*Disclaimer! Header2 is being targeted here aswell*/ 
-.education-container, h2 {
+.education-container, 
+.inside-container h2 {
     font-size: 1.5rem;
     grid-column: 1;
     display: grid;
