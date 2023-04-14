@@ -31,6 +31,10 @@
     width: 45vw;
     border: 1px solid;
 }
+table {
+    justify-content: center;
+    display: grid;
+}
 
 picture > a > img {
     margin: 1em;
@@ -45,6 +49,6 @@ picture > a > img:hover {
     transform: scale(1.1, 1.1);
 }
 
-a:visited, a:link {
+picture > a:visited, a:link {
     color: black;
 }
