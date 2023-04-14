@@ -21,13 +21,14 @@
 .project-container {
     grid-column: 2;
     height: fit-content;
-    width: 40vw;
+    width: 45vw;
     grid-template-rows: auto;
     border: 1px solid;
 }
 
 .education-container {
     grid-column: 1;
+    width: 45vw;
     border: 1px solid;
 }
 
