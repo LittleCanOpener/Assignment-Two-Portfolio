@@ -23,14 +23,13 @@
     height: fit-content;
     width: 45vw;
     grid-template-rows: auto;
-    border: 1px solid;
 }
-
-.education-container {
+/*Disclaimer! Header2 is being targeted here aswell*/ 
+.education-container, h2 {
+    font-size: 2rem;
     grid-column: 1;
     display: grid;
     width: 45vw;
-    border: 1px solid;
 }
 
 picture > a > img {
