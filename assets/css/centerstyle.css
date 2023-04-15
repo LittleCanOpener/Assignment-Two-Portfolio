@@ -25,7 +25,10 @@
     width: 45vw;
     background-color: #0F0D0E;
 }
-
+.education-container a{
+    text-decoration: none;
+    color: rgb(77, 58, 160);
+}
 .project-container {
     grid-column: 2;
     height: fit-content;
@@ -39,6 +42,7 @@
     transition: transform .5s;
     max-width: 30vw;
     max-height: 20vh;
+
 }
 
  
@@ -47,5 +51,5 @@
 }
 
 .project-container a:visited, a:link {
-    color: black;
+    color: rgb(77, 58, 160);
 }
