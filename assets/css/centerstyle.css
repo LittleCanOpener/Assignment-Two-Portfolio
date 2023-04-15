@@ -4,13 +4,11 @@
 }
 .main-container {
     display: grid;
-    grid-template-columns: 2;
     gap: 10px;
     text-align: center;
     color: white;
     border: 0;
     background-color: rgba(0, 0, 0, 0.945);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .inside-container {
@@ -18,12 +16,6 @@
     justify-content: space-evenly;
 }
 
-.project-container {
-    grid-column: 2;
-    height: fit-content;
-    width: 45vw;
-    grid-template-rows: auto;
-}
 /*Disclaimer! Header2 is being targeted here aswell*/ 
 .education-container, 
 .inside-container h2 {
@@ -31,8 +23,16 @@
     grid-column: 1;
     display: grid;
     width: 45vw;
+    background-color: #0F0D0E;
 }
 
+.project-container {
+    grid-column: 2;
+    height: fit-content;
+    width: 45vw;
+    grid-template-rows: auto;
+    background-color: #0F0D0E;
+}
 
 .project-container > a > img {
     margin: 1em;
@@ -46,6 +46,6 @@
     transform: scale(1.1, 1.1);
 }
 
-picture > a:visited, a:link {
-    color: rgb(77, 58, 160);
+.project-container a:visited, a:link {
+    color: black;
 }
