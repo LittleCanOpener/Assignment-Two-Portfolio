@@ -1,7 +1,4 @@
 /*Hrafns Section Fully responsive without Media*/
-*{
-    margin: 0;
-}
 .main-container {
     display: grid;
     gap: 10px;
@@ -12,6 +9,10 @@
 }
 
 .inside-container {
+    border-radius: 7px;
+    box-shadow: 0 0 0 3px rgba(16, 5, 23, 1),
+    0 0 23px rgba(29, 253, 220, 1) ,
+    0 0 34px rgba(115, 69, 252, 1);
     display: grid;
     justify-content: space-evenly;
 }
