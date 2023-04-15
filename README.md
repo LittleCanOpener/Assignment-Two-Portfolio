@@ -1,4 +1,5 @@
 # Brainnest Project Two - Portfolio - Advanced Course
+<img src="./assets/images/am-i-responsive (2).png">
 <h1>Deployment</h1>
 
 <ul>
@@ -23,7 +24,7 @@
     </li>
 </ul><hr>
 <h2>
-    <a href="#" target="_blank"> Live Preview</a>
+    <a href="https://littlecanopener.github.io/Assignment-Two-Portfolio/" target="_blank"> Live Preview</a>
 </h2>
 <hr>
 <ul>
