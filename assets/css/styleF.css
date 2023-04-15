@@ -1,6 +1,5 @@
 body {
-    margin: 0;
-
+    margin:0;
   }
   
   h1,
@@ -14,7 +13,6 @@ body {
   
   img {
     max-width: 100%;
-    display: block;
   }
 
 
@@ -85,13 +83,14 @@ button{
 }
 
 button:hover{
-    padding: 7px 13px;
     cursor: pointer;
+    transform: scale(1.1);
+    transition: ease 0.48s;
 }
 .paragraphs{
     display: flex;
 color: aliceblue;
-padding: 80px 10px 80px  10px;
+padding: 40px 0px 40px 0px;
 justify-content: space-evenly;
 max-width: 70%;
 margin: auto;
@@ -153,8 +152,9 @@ justify-content: center;
 }
 .data .col{
     border-right: 2px solid rgb(124, 124, 124);
-    padding: 40px 40px 40px  10px;
-flex-basis: 25%;
+flex-basis: 33.33333%;
+padding: 30px 0px 30px  0px;
+
 }
 
 .data .col:nth-child(3){
@@ -189,7 +189,7 @@ ul a{
     color: aliceblue;
 
 }
-i{
+.ic{
     color: aliceblue;
 }
 @media screen and (max-width: 768px){
