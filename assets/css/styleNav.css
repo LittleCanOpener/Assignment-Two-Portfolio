@@ -1,6 +1,8 @@
 body {
     margin:0;
     margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+
   }
   
   h1,
@@ -43,7 +45,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 15px 0 15px  15px ;
     position: fixed;
     left: 0;
     top: 0;

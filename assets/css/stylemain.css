@@ -113,7 +113,7 @@ h2 span {
     color: var(--rmob-text-color);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 padding: 30px;
-animation: Jump 5s ease 0s 1 normal forwards;
+/* animation: Jump 5s ease 0s 1 normal forwards; */
 
 } 
 
