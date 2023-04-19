@@ -1,0 +1,242 @@
+body {
+    margin:0;
+    margin-top: 70px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p,
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
+  
+
+:root{
+    --background-color: #314453;
+    --darker-background-color: #243848;
+    --accent-color: #f0f8ff;
+    --text-color: #FFFFFF;
+
+    --r-text-color:#f1f5f9;
+    --r-background-color:#94a3b8;
+    
+    --r-backgroundt-color:rgb(148, 163, 184,0.9);
+
+    --rmob-text-color:#f0f9ff;
+    --rmob-background-color:#0284c7;
+
+    --rmob-backgroundt-color:rgb(2, 132, 199,0.4);
+
+}
+  
+
+nav{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    animation: fade 1s ease 0s 1 normal forwards;
+    z-index: 9999;
+}
+nav .logo{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+
+}
+nav .logo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease 0.48s;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+nav li{
+    height: 100%;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    font-size: 1.1rem;
+}
+nav li:hover{
+cursor: pointer;
+transform: scale(1.1);
+transition: ease 0.48s;
+}
+nav ul a{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color); 
+    text-decoration: none;
+}
+.dropdown{
+    height: min-content;
+    width: 200px;
+    background: var(--darker-background-color);
+
+    display: none;
+    flex-direction: column;
+    
+    position: absolute;
+    left: 0;
+}
+.dropdown li{
+    height: 70px;
+    width: 100%;
+}
+.dropdown li a{
+    justify-content: flex-start;
+    width: calc(100% - 30px);
+}
+nav li:hover .dropdown{
+    display: flex;
+}
+nav input[type="checkbox"]{
+    display: none;
+}
+.expandable_li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toggle_button{
+    width: 30px;
+    height: 23px;
+
+    position: absolute;
+    top: 25px;
+    right: 25px;
+
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bar{
+    height: 4px;
+    width: 100%;
+    background: var(--background-color);
+    border-radius: 100px;
+}
+@media(max-width: 850px){
+    .toggle_button{
+        display: flex;
+    }
+    nav li:hover{
+        background-color:#94a3b8;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: ease 0.48s;
+        }
+ 
+    nav .logo{
+        color:#314453;
+        font-weight: bold;
+    }
+    nav {
+        background-color: var(--r-background-color);
+        z-index: 99999;
+    }
+    nav ul{
+        height: min-content;
+        right: 0;       
+        background-color: var(--r-backgroundt-color);
+        left: 0;
+        display: none;
+        position: absolute;
+        top: 70px;
+    }
+    nav li{
+        height: min-content;
+        width: 100%;
+   }
+    nav ul a{
+        padding: 15px 0;
+        color: var(--text-color); 
+    }
+    .expandable_li{
+        display: block;
+    }
+    .expandable_li label{
+        cursor: pointer;
+        display: block;
+    }
+    .expandable_li:hover .dropdown{
+        display: none;
+    }
+    .expandable_li input[type="checkbox"]:checked ~ .dropdown{
+        display: block;
+    }
+    .dropdown{
+        position: static;
+        width: 100%;
+    }
+    .dropdown li{
+        padding: 0;
+        display: block;
+        position: static;
+        background: var(--r-background-color);
+
+    }
+    .dropdown li a{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+    #toggle_button:checked ~ ul{
+        display: block;
+    }
+}
+@media(max-width: 450px){
+    nav {
+        background-color: var(--rmob-background-color);
+    }
+    nav ul{
+            
+ background-color: var(--rmob-backgroundt-color);
+
+    }
+    nav ul a{
+        color: var(--accent-color); 
+    }
+   
+}
+@keyframes fade {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+

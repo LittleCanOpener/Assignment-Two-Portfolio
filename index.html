@@ -11,16 +11,222 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/styleF.css">
-    <link rel="stylesheet" href="./assets/css/centerstyle.css">
-    <link rel="stylesheet" href="./assets/css/stylesDarija.css">
+
+    <link rel="stylesheet" href="./assets/css/styleNav.css">
+    <link rel="stylesheet" href="./assets/css/stylehero.css">
+    <link rel="stylesheet" href="./assets/css/stylemain.css">
+    <link rel="stylesheet" href="./assets/css/styleContact.css">
+
     <title>Joe Doe</title>
 </head>
 
 <body>
+    <nav>
+        <a class="logo" href="#">JDFOLIO</a>
+        <input type="checkbox" id="toggle_button">
+        <label for="toggle_button" class="toggle_button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+        <ul>
+            <li><a href="#">Home</a></li>
+
+            <li><a href="#EduWork">Education & Work</a></li>
 
 
-    <nav class="navbar fixed-top">
+            <li><a href="#Companies">Companies</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="Home">
+        <div class="paragraphs">
+            <h1>Hi, I am <span>Joe Doe</span> and <span>Welcome</span> to my Page</h1>
+            <div class="text">
+                <p>Over the past 12 years.I've worked with a diverse range of clients, from startupsto fortune 500
+                    companies.I love crafting interface that delight users and help businesses grow</p>
+                <div class="medias">
+                    <a class="icon" href="https://www.linkedin.com" target="_blank"><i
+                            class="fa fa-linkedin fa-1x ic"></i></a>
+                    <a class="icon" href="https://twitter.com/" target="_blank"><i
+                            class="fa fa-twitter fa-1x ic"></i></a>
+                    <a class="icon" href="https://www.instagram.com/" target="_blank"> <i
+                            class="fa fa-instagram fa-1x ic"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <section class="pictures">
+            <div class="col"> <img src="https://picsum.photos/id/2/300/500" alt="">
+            </div>
+            <div class="col"> <img src="https://picsum.photos/id/1005/500/500" alt="">
+            </div>
+            <div class="col">
+                <img src="https://picsum.photos/id/54/300/250" alt="">
+                <img src="https://picsum.photos/id/58/300/250" alt="">
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://picsum.photos/id/1005/500/500" alt="Avatar">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="data">
+            <div class="col">
+                <h1>12+</h1>
+                <p>years of Experience</p>
+            </div>
+            <div class="col">
+                <h1>100+</h1>
+                <p>Successfully Completed Projects</p>
+            </div>
+            <div class="col">
+                <h1>50+</h1>
+                <p>Global Customers</p>
+            </div>
+        </section>
+
+
+
+    </header>
+    <div class="first"></div>
+
+    <main id="EduWork" class="container">
+
+        <div class="Education">
+            <h2>Education</h2>
+            <div class="inner-section">
+                <div class="inner-left">
+                    <h3>Oxford</h3>
+                    <p>UI/UX Degree</p>
+                </div>
+                <li>2016-2020</li>
+
+            </div>
+            <hr>
+            <div class="inner-section">
+                <div class="inner-left">
+                    <h3>Stanford</h3>
+                    <p>Backend Web Degree</p>
+                </div>
+                <li>2012-2016</li>
+
+            </div>
+            <hr>
+            <div class="inner-section">
+                <div class="inner-left">
+                    <h3>MIT</h3>
+                    <p>Frontend Web Degree</p>
+                </div>
+                <li>2008-2012</li>
+
+            </div>
+
+        </div>
+        <div class="Work">
+            <h2>Work Experience</h2>
+            <div class="inner-section">
+                <div class="inner-left">
+                    <h3>Apple</h3>
+                    <p>CTO</p>
+                </div>
+                <li>2022-present</li>
+
+            </div>
+            <hr>
+            <div class="inner-section">
+                <div class="inner-left">
+                    <h3>Tesla</h3>
+                    <p>Software Architect</p>
+                </div>
+                <li>2020-2022</li>
+
+            </div>
+            <hr>
+
+
+            <div class="inner-section">
+                <div class="inner-left">
+                    <h3>Twitter</h3>
+                    <p>Fullstack Developer</p>
+                </div>
+                <li>2016-2020</li>
+
+            </div>
+        </div>
+
+    </main>
+    <!-- <div class="Projects">
+        <h2> Projects</h2>
+
+
+
+    </div> -->
+
+    <div class="first"></div>
+
+    <section id="Companies">
+        <h2><span>Companies</span> I've worked with</h2>
+        <div class="works">
+
+            <div><img src="./assets/images/icons/logoipsum-260.svg" alt=""></div>
+            <div><img src="./assets/images/icons/logoipsum-261.svg" alt=""></div>
+            <div><img src="./assets/images/icons/logoipsum-262.svg" alt=""></div>
+            <div><img src="./assets/images/icons/logoipsum-263.svg" alt=""></div>
+            <div><img src="./assets/images/icons/logoipsum-265.svg" alt=""></div>
+            <div><img src="./assets/images/icons/logoipsum-286.svg" alt=""></div>
+        </div>
+    </section>
+    <section class="img-container">
+        <div class="img">
+            <img src="./assets/images/icons/pexels-chloe-1043474.jpg" alt="photo of man">
+        </div>
+        <div class="right">
+            <h2>Follow me</h2>
+            <p>I' m Joe Doe who works with to build brands</p>
+            <hr>
+            <div class="icons">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fa fa-github-square"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer id="Contact">
+        <div class="top">
+            <h1>JDFOLIO</h1>
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About me</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="bottom">
+            <p>&copy; Design by Joe Doe</p>
+            <div class="media">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- <nav class="navbar fixed-top">
         <div class="left-part">
             <div class="Logo"><a href="#">XFOLIO</a> </div>
 
@@ -47,7 +253,8 @@
 
         <button>Let's Talk</button>
     </nav>
-    <header>
+    <header>        <div class="first"></div>
+
         <div class="paragraphs">
             <h1>Hi, I am <span>Joe Doe</span> and <span>Welcome</span> to my Page</h1>
             <div class="text">
@@ -98,7 +305,6 @@
 
 
     <main id="Education & Projects">
-        <div class="first"></div>
         <div class="main-container">
             <section class="inside-container">
                 <aside class="education-container">
@@ -133,7 +339,6 @@
                         <img src="https://github.com/LittleCanOpener/Second-Session-HTML-CSS/raw/main/assets/images/readme/responsive.png"
                             alt="example image of previous projects">
                     </a>
-                    <a href="https://github.com/LittleCanOpener/Milestone-Project-2-Snake-Game" target="_blank">
                         <img src="https://github.com/LittleCanOpener/Milestone-Project-2-Snake-Game/raw/main/assets/images/validators/AmIResponsive.png"
                             alt="example image of previous projects">
                     </a>
@@ -153,7 +358,8 @@
             <h1><span>Companies</span> I've worked with</h1>
             <div class="works">
                 <div><img src="./assets/images/icons/logoipsum-254.svg" alt=""></div>
-                <div><img src="./assets/images/icons/logoipsum-256.svg" alt=""></div>
+                <div><img src="    <a href="https://github.com/LittleCanOpener/Milestone-Project-2-Snake-Game" target="_blank">
+                ./assets/images/icons/logoipsum-256.svg" alt=""></div>
                 <div><img src="./assets/images/icons/logoipsum-257.svg" alt=""></div>
                 <div><img src="./assets/images/icons/logoipsum-258.svg" alt=""></div>
                 <div><img src="./assets/images/icons/logoipsum-260.svg" alt=""></div>
@@ -208,7 +414,7 @@
                 <a href="" target="_blank"><i class="devicon-github-original"></i></a>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
 </body>
 
