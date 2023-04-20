@@ -138,7 +138,9 @@ ul>a:hover {
     text-decoration: none;
 
 }
-
+.icons a{
+    color: var(--rmob-text-color);
+}
 .icons>a:hover {
     color: rgb(106, 102, 128);
     transform: scale(1.1);
