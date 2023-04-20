@@ -68,10 +68,10 @@ h2 span {
     padding: 20px;
 }
 #Companies{
-    background-color: var(--accent-color);
+    background-color: rgb(159, 233, 233);
     color: var(--r-text-color);
     font-size: 2rem;
-    animation: Drop 10s ease 0s 1 normal forwards;
+    animation: Drop 2s ease 0s 1 normal forwards;
 
 }
 .works {
@@ -116,7 +116,9 @@ padding: 30px;
 /* animation: Jump 5s ease 0s 1 normal forwards; */
 
 } 
-
+#Companies{
+    background-color: var(--r-darker-background-color);
+}
 
 
 
