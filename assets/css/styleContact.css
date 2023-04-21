@@ -1,32 +1,28 @@
-:root{
+:root {
     --background-color: #314453;
     --darker-background-color: #243848;
     --accent-color: aliceblue;
     --text-color: #FFFFFF;
 
 
-    --r-text-color:#0c0a09;
-    --r-background-color:#f4f4f5;
+    --r-text-color: #0c0a09;
+    --r-background-color: #f4f4f5;
     --r-darker-background-color: #d4d4d8;
 
-    --rmob-text-color:#0c0a09;
-    --rmob-background-color:#f8fafc;
+    --rmob-text-color: #0c0a09;
+    --rmob-background-color: #f8fafc;
     --rmob-darker-background-color: #e2e8f0;
-
 }
 
 section>h1 {
     text-align: center;
-    font-size: clamp(1.625rem, 6vw + 1px , 2.875rem);
+    font-size: clamp(1.625rem, 6vw + 1px, 2.875rem);
     margin: 60px 1.4% 40px;
-
 }
 
 h1 span {
     color: rgb(77, 58, 160);
 }
-
-
 
 .img {
     object-fit: contain;
@@ -45,8 +41,6 @@ h1 span {
     justify-content: center;
     padding: 48px 8%;
     animation: Open 5s ease 0s 1 normal forwards;
-
-
 }
 
 .right {
@@ -96,6 +90,7 @@ footer {
 ul {
     display: flex;
 }
+
 .top ul>a {
     font-size: 0.875rem;
     list-style-type: none;
@@ -138,9 +133,11 @@ ul>a:hover {
     text-decoration: none;
 
 }
-.icons a{
+
+.icons a {
     color: var(--rmob-text-color);
 }
+
 .icons>a:hover {
     color: rgb(106, 102, 128);
     transform: scale(1.1);
@@ -151,38 +148,51 @@ ul>a:hover {
     color: rgb(106, 102, 128);
     transition: ease 0.4s;
 }
-.top > h1 {
+
+.top>h1 {
     display: block;
     margin: 0;
     text-align: start;
 
 }
-.img-container{
-    background-color:var(--background-color) ;
+
+.img-container {
+    background-color: var(--background-color);
 }
-footer{
-    background-color:var(--darker-background-color) ;
-color: var(--text-color);
-animation: Vertical-Open 4s ease 0s 1 normal forwards;
+
+footer {
+    background-color: var(--darker-background-color);
+    color: var(--text-color);
+    animation: Vertical-Open 4s ease 0s 1 normal forwards;
 }
+
 @media (max-width: 850px) {
+
     /* section>h1 {
         font-size: 2.3rem;
     } */
-.img-container{
-    background-color:var(--r-background-color) ;
-}
-footer{
-    background-color:var(--r-darker-background-color) ;
-color: var(--r-text-color);
-}
-.media a{
-    color: var(--rmob-text-color);
-}
+    .img-container {
+        background-color: var(--r-background-color);
+    }
+
+    footer {
+        background-color: var(--r-darker-background-color);
+        color: var(--r-text-color);
+    }
+
+    .media a {
+        color: var(--rmob-text-color);
+    }
+
     .right {
+        background-color: rgb(212, 212, 216);
         transform: none;
         width: 200px;
         padding: 15px;
+    }
+
+    .img img {
+        outline: rgb(212, 212, 216);
     }
 
     .top {
@@ -194,32 +204,38 @@ color: var(--r-text-color);
         justify-content: space-between;
         padding: 0;
     }
+
     .top ul>a {
-     margin-right: 20px;
+        margin-right: 20px;
     }
+
     .bottom {
         flex-direction: column;
         align-items: center;
     }
+
     .bottom>p {
         order: 2;
         text-align: center;
     }
+
     .media a {
-      margin: 5px ;
-}}
+        margin: 5px;
+    }
+}
 
 @media (max-width: 450px) {
-    .img-container{
-        background-color:var(--rmob-background-color) ;
+    .img-container {
+        background-color: var(--rmob-background-color);
     }
-    footer{
-        background-color:var(--rmob-darker-background-color) ;
-    color: var(--r-text-color);
+
+    footer {
+        background-color: var(--rmob-darker-background-color);
+        color: var(--r-text-color);
     }
-   
+
     .img {
-        order: 2 ;
+        order: 2;
     }
 
     .works div:nth-child(10),
@@ -230,23 +246,23 @@ color: var(--r-text-color);
 }
 
 @keyframes Open {
-	0% {
-		transform: scaleX(0.4);
-	}
+    0% {
+        transform: scaleX(0.4);
+    }
 
-	100% {
-		transform: scaleX(1);
-	}
+    100% {
+        transform: scaleX(1);
+    }
 }
 
 @keyframes Vertical-Open {
-	0% {
-		transform: scaleY(0.4);
-		transform-origin: 0% 100%;
-	}
+    0% {
+        transform: scaleY(0.4);
+        transform-origin: 0% 100%;
+    }
 
-	100% {
-		transform: scaleY(1);
-		transform-origin: 0% 100%;
-	}
+    100% {
+        transform: scaleY(1);
+        transform-origin: 0% 100%;
+    }
 }
