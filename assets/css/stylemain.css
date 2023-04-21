@@ -35,6 +35,10 @@
     padding: 40px 0 40px 0;
 }
 
+.inner-section li {
+    align-self: end;
+}
+
 .first {
     background: rgb(16, 5, 23);
     background: linear-gradient(63deg, rgba(16, 5, 23, 1) 0%, rgba(29, 253, 220, 1) 50%, rgba(115, 69, 252, 1) 100%);
@@ -93,7 +97,8 @@ h2 span {
         margin: 20px;
         background-color: var(--r-background-color);
         color: var(--rmob-text-color);
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.45);
         padding: 30px;
         /* animation: Jump 5s ease 0s 1 normal forwards; */
     }
@@ -103,18 +108,11 @@ h2 span {
     }
 }
 
-
-
-
-
-
-
-
 @media(max-width: 450px) {
 
     .container {
         background-color: var(--rmob-background-color);
-
+        padding: 20px 0;
     }
 
     .Education {
@@ -125,13 +123,13 @@ h2 span {
     }
 
     .Education h2 {
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.35);
         padding: 10px;
         background-color: var(--rmob-background-color);
     }
 
     .Education .inner-section {
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.35);
         padding: 20px;
         margin: 10px;
         list-style-type: none;
@@ -152,14 +150,16 @@ h2 span {
     }
 
     .Work h2 {
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.35);
         padding: 10px;
         background-color: var(--rmob-background-color);
 
     }
 
     .Work .inner-section {
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.35);
         padding: 20px;
         margin: 10px;
         list-style-type: none;
@@ -186,7 +186,6 @@ h2 span {
 
     .Education .inner-section .inner-left {
         font-size: 1rem;
-
     }
 }
 

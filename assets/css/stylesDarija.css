@@ -68,7 +68,7 @@ h1 span {
     transform: translate(-50px);
     border-radius: 5px;
     letter-spacing: 0.8px;
-    width: clamp(1vh, 300px, max(90vw, 55rem));
+    width: max(50vw, 55rem);
     line-height: 1.5;
 }
 

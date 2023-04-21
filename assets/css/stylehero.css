@@ -26,6 +26,7 @@ h1 span {
 
 .paragraphs {
     display: flex;
+    gap: 2px;
     color: var(--text-color);
     padding: 40px 0px 40px 0px;
     justify-content: space-evenly;
@@ -52,7 +53,7 @@ h1 {
 }
 
 .medias {
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
 }
 
 .medias a {
@@ -64,7 +65,7 @@ h1 {
     justify-content: center;
     align-items: center;
     display: flex;
-    padding: 40px 10px 40px 10px;
+    padding: 40px 10px;
     background-color: var(--background-color);
 }
 
@@ -78,6 +79,7 @@ h1 {
 }
 
 .pictures img {
+    margin-right: 20px;
     animation: myAnim 1s ease 0s 1 normal forwards;
 }
 
@@ -86,7 +88,7 @@ h1 {
     text-align: center;
     display: flex;
     align-items: center;
-    padding: 40px 10px 40px 10px;
+    padding: 40px 10px;
     color: var(--text-color);
     justify-content: center;
 }
@@ -94,7 +96,7 @@ h1 {
 .data .col {
     border-right: 2px solid rgb(124, 124, 124);
     flex-basis: 33.33333%;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px;
 }
 
 .data .col:nth-child(3) {
@@ -201,7 +203,7 @@ p {
 
     .paragraphs {
         flex-direction: column;
-        order: 1;
+        order: 0;
         display: flex;
         color: var(--r-text-color);
         background-color: var(--r-darker-background-color);
@@ -226,7 +228,7 @@ p {
     .data .col {
         border-right: 0;
         margin: 10px;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.35);
     }
 
     .data .col:hover {
@@ -244,7 +246,7 @@ p {
     .data {
         display: flex;
         flex-direction: column;
-        padding: 0;
+        padding: 20px 0;
     }
 
     .data .col {
@@ -255,8 +257,15 @@ p {
     }
 
     .paragraphs {
+        order: 1;
         background-color: var(--rmob-background-color);
         color: var(--rmob-text-color);
+        padding: 20px 0;
+        max-width: 90%;
+    }
+
+    .pictures img {
+        margin-right: 0;
     }
 }
 

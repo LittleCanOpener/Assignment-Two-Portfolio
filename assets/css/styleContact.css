@@ -52,11 +52,13 @@ h1 span {
     transform: translate(-50px);
     border-radius: 5px;
     letter-spacing: 0.8px;
-    width: clamp(1vh, 300px, max(90vw, 55rem));
+    /* width: clamp(1vh, 300px, max(90vw, 55rem)); */
+    width: max(15rem, 300px);
     line-height: 1.5;
 }
 
-h2 {
+#Companies h2 {
+    font-size: clamp(32px, 2.5vw + 1px, 60px);;
     font-weight: 600;
     margin: 0;
 }
@@ -192,7 +194,7 @@ footer {
     }
 
     .img img {
-        outline: rgb(212, 212, 216);
+        outline: 4px solid rgb(212, 212, 216);
     }
 
     .top {
