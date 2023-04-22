@@ -3,12 +3,9 @@
     --darker-background-color: #243848;
     --accent-color: aliceblue;
     --text-color: #FFFFFF;
-
-
     --r-text-color: #0c0a09;
     --r-background-color: #f4f4f5;
     --r-darker-background-color: #d4d4d8;
-
     --rmob-text-color: #0c0a09;
     --rmob-background-color: #dbeafe;
     --rmob-darker-background-color: #93c5fd;
@@ -28,7 +25,7 @@ h1 span {
     display: flex;
     gap: 2px;
     color: var(--text-color);
-    padding: 40px 0px 40px 0px;
+    padding: 40px 0px;
     justify-content: space-evenly;
     max-width: 70%;
     margin: auto;
@@ -262,6 +259,7 @@ p {
         padding: 20px 0;
         max-width: 90%;
     }
+
     .flip-card {
         height: 430px;
     }

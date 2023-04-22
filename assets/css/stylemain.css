@@ -3,12 +3,9 @@
     --darker-background-color: #243848;
     --accent-color: aliceblue;
     --text-color: #FFFFFF;
-
-
     --r-text-color: #0c0a09;
     --r-background-color: #f4f4f5;
     --r-darker-background-color: #d4d4d8;
-
     --rmob-text-color: #0c0a09;
     --rmob-background-color: #dbeafe;
     --rmob-darker-background-color: #93c5fd;
@@ -19,7 +16,7 @@
     color: var(--text-color);
     display: flex;
     justify-content: space-evenly;
-    padding: 40px 0 40px 0;
+    padding: 40px 0;
 }
 
 .Education,
@@ -31,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 0 40px 0;
+    padding: 40px 0;
 }
 
 .inner-section li {
@@ -90,11 +87,11 @@ h2 span {
     }
 
     .first {
-        background: rgb(2,0,36);
-        background: linear-gradient(67deg, rgba(2,0,36,1) 0%, rgba(135,139,139,0.6446953781512605) 50%, rgba(207,215,215,1) 100%);
+        background: rgb(2, 0, 36);
+        background: linear-gradient(67deg, rgba(2, 0, 36, 1) 0%, rgba(135, 139, 139, 0.6446953781512605) 50%, rgba(207, 215, 215, 1) 100%);
         height: 30px;
-     }
- 
+    }
+
     .Education,
     .Work {
         text-transform: uppercase;
@@ -116,7 +113,7 @@ h2 span {
         background-color: var(--rmob-background-color);
         padding: 20px 0;
     }
-    
+
     .Education {
         box-shadow: none;
         border: 0;
@@ -241,6 +238,3 @@ h2 span {
         transform: scale(1);
     }
 }
-
-
-

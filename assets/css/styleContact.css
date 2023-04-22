@@ -3,12 +3,9 @@
     --darker-background-color: #243848;
     --accent-color: aliceblue;
     --text-color: #FFFFFF;
-
-
     --r-text-color: #0c0a09;
     --r-background-color: #f4f4f5;
     --r-darker-background-color: #d4d4d8;
-
     --rmob-text-color: #0c0a09;
     --rmob-background-color: #f8fafc;
     --rmob-darker-background-color: #e2e8f0;
@@ -56,7 +53,8 @@ h1 span {
 }
 
 #Companies h2 {
-    font-size: clamp(30px, 1.5vw + 1rem, 50px);;
+    font-size: clamp(30px, 1.5vw + 1rem, 50px);
+    ;
     font-weight: 600;
     padding-top: 30px;
     margin: 0;
@@ -153,7 +151,6 @@ ul>a:hover {
     display: block;
     margin: 0;
     text-align: start;
-
 }
 
 .img-container {
@@ -231,7 +228,7 @@ footer {
     .right {
         background-color: var(--rmob-darker-background-color);
     }
-    
+
     .img img {
         outline: 4px solid var(--rmob-darker-background-color);
     }
@@ -255,4 +252,3 @@ footer {
         display: none;
     }
 }
-
