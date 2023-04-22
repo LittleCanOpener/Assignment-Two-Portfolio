@@ -52,14 +52,14 @@ h1 span {
     transform: translate(-50px);
     border-radius: 5px;
     letter-spacing: 0.8px;
-    /* width: clamp(1vh, 300px, max(90vw, 55rem)); */
-    width: max(15rem, 300px);
+    width: clamp(90px, 35vw + 1rem, 300px);
     line-height: 1.5;
 }
 
 #Companies h2 {
-    font-size: clamp(32px, 2.5vw + 1px, 60px);;
+    font-size: clamp(30px, 1.5vw + 1rem, 50px);;
     font-weight: 600;
+    padding-top: 30px;
     margin: 0;
 }
 
@@ -189,7 +189,7 @@ footer {
     .right {
         background-color: rgb(212, 212, 216);
         transform: none;
-        width: 200px;
+        /* width: 200px; */
         padding: 15px;
     }
 
@@ -227,8 +227,20 @@ footer {
 }
 
 @media (max-width: 450px) {
+    #Companies {
+        background-color: var(--rmob-darker-background-color);
+    }
+
     .img-container {
         background-color: var(--rmob-background-color);
+    }
+
+    .right {
+        background-color: var(--rmob-darker-background-color);
+    }
+    
+    .img img {
+        outline: 4px solid var(--rmob-darker-background-color);
     }
 
     footer {
@@ -238,6 +250,10 @@ footer {
 
     .img {
         order: 2;
+    }
+
+    .works {
+        background-color: var(--rmob-darker-background-color);
     }
 
     .works div:nth-child(10),

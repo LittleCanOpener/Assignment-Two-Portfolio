@@ -33,7 +33,7 @@ h1 span {
     max-width: 70%;
     margin: auto;
     align-items: center;
-    animation: myAnim1 1s ease 0s 1 normal forwards;
+    /* animation: myAnim1 1s ease 0s 1 normal forwards; */
 }
 
 h1,
@@ -80,7 +80,7 @@ h1 {
 
 .pictures img {
     margin-right: 20px;
-    animation: myAnim 1s ease 0s 1 normal forwards;
+    /* animation: myAnim 1s ease 0s 1 normal forwards; */
 }
 
 .data {
@@ -250,10 +250,11 @@ p {
     }
 
     .data .col {
+        background-color: var(--rmob-background-color);
         width: 60%;
         padding-left: 50px;
         padding-right: 50px;
-        animation: myAnim 1s ease 0s 1 normal forwards;
+        /* animation: myAnim 1s ease 0s 1 normal forwards; */
     }
 
     .paragraphs {
@@ -263,9 +264,21 @@ p {
         padding: 20px 0;
         max-width: 90%;
     }
+    .flip-card {
+        height: 430px;
+    }
+
+    .flip-card-inner {
+        height: 400px;
+    }
+
+    .pictures {
+        padding-bottom: 0;
+    }
 
     .pictures img {
         margin-right: 0;
+        height: 400px;
     }
 }
 
